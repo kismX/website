@@ -1,0 +1,170 @@
+@font-face {
+    font-family: ShareTechMono;
+    src: url(../fonts/ShareTechMono.ttf)
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand.ttf)
+}
+
+@font-face {
+    font-family: QuicksandSemiBold;
+    src: url(../fonts/QuicksandSemiBold.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* hintergrundbild laden */
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+nav {
+    width: 50%;
+    text-align: left;
+}
+
+
+li {
+    border: 2px solid brown;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 33px;
+    font-family: ShareTechMono, monospace;
+    color: white;
+}
+
+li:hover {
+    background-color: red;
+}
+
+li ion-icon {
+    padding-left: 30px;
+}
+
+
+main {
+    margin-bottom: 65px;
+}
+
+
+h1, h2 {
+    color: white;
+    font-family: QuicksandSemiBold, sans-serif;
+}
+
+
+/* Abstand schaffen */
+h2 {
+    margin-top: 30px;
+}
+
+
+main figure {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 35%;
+}
+
+
+
+
+
+section {
+    width: 60%;
+    display: inline-block    
+}
+
+p {
+    font-family: Quicksand, sans-serif;
+    /* text in blocksatz */
+    text-align: justify;
+    /*text oben ausrichten */
+    vertical-align: bottom;   
+    /* block mit inline eigenschaften */
+    display: inline-block;
+    /*die einzelnen p sollen 15% vom body einnehmen */
+    width: 50%;
+    color: white;
+}
+
+.sign-up-form {
+    width: 300px;   /*signup shrunk to 300px */
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 3);
+    background: #6e6a6aa4;
+    padding: 20px;   /* space between borders an content */
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    color: #1c8adb;                       /* farbe geht nicht */
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;         /* macht die ecken rund  */
+    padding: 10px;                  /* textvorschau abstand*/
+    margin: 10px 0;      /* bei 2 zahlen top/bopttm ; l/r */
+    width: 85%;         /* 85%  werden mit text ausgefüllt */
+    border: 1px solid #999;
+    outline: none;
+}
+
+button {
+    color: #fff;
+    width: 85%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px o;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}
+
+.sign-btn {
+    background-color: #1c8adb;
+}
+
+.twitter-btn {
+    background-color: #21afde; 
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+
+
+/* inhalt nach rechts im footer */
+footer {
+    text-align: right;
+}
+
+/* die social media icon-links sollen in größe und frabe verändert werden und sollen einen abstand zueinander haben */
+a ion-icon {
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+}
